@@ -35,7 +35,7 @@ if (isset($_GET['id'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actualizar Usuario</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <h1>Actualizar Usuario</h1>
@@ -61,6 +61,9 @@ if (isset($_GET['id'])) {
     <?php else: ?>
         <p>Usuario no encontrado.</p>
     <?php endif; ?>
-    <a href="index.php">Volver a la Lista</a>
+    <div class="back-link-container">
+        <a href="index.php" class="back-link">Volver a la Lista</a>
+    </div>
+
 </body>
 </html>
